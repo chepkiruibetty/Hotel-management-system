@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hotel Management System</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index.css">
   </head>
+
   <body>
     <nav>
       <ul>
@@ -26,11 +27,7 @@
           land of Kilgoris!
         </h3>
         <br />
-        <div id="bookings"><button class="mybtn">Book Now</button></div>
-      </div>
     </div>
-
-    <br />
     <div id="info">
       <p>
         Designed to bring a home within a home ! Weekends and holiday's luxuries
@@ -39,47 +36,80 @@
       </p>
     </div>
     <div class="rows" id="services">
-      <h2>Services</h2>
+      <h2 class="sb">Services</h2>
       <p>
-        We provide good services that you will never regret using it!Below you
-        can choose the services you need and incase of any assistance,don't
-        hesitate contacting the support personnel.<em>We care your comfort!</em>
+        We provide good services that you will never regret using it!<br>Below you
+        can choose the services you need and<br> incase of any assistance,don't
+        hesitate contacting the support personnel.<br><em>We care your comfort!</em>
       </p>
-      <div class="table">
-        <div class="columns">
-          <ol>
-            <h3>Service</h3>
-            <li>Culinary offers</li>
-            <li>Excursion offers</li>
-            <li>Accomodations</li>
-            <li>Conference Halls</li>
-            <li>Wedding fields</li>
-          </ol>
+      <h2><i><b>Rooms</b></i></h2>
+      <div class="accomdt">
+        <div>
+          <h3>Presidential Suite</h3>
+          <img src="https://bit.ly/2CeLazk" alt="room" />
+          <p>Bed size:12 by 6</p>
+          <p>price:20,000</p>
+          <div id="btn">
+            <button>Book now</button>
+          </div>
         </div>
-        <div class="columns">
-          <ol>
-            <h3>Support personnel</h3>
-            <li>Willy Mucheke</li>
-            <li>Maureen Wekesa</li>
-            <li>Betty Muli</li>
-            <li>Sam Mutiso</li>
-            <li>Faith Ochieng</li>
-          </ol>
+
+        <div>
+          <h3>Junior Suite</h3>
+          <img src="https://bit.ly/2PTzIB4" alt="suite" />
+          <p>Bed size:6 by 6</p>
+          <p>price:15,000</p>
+          <div id="tn">
+            <button>Book now</button>
+          </div>
         </div>
-        <div class="columns" id="contacts">
-          <ol>
-            <h3>Contacts</h3>
-            <li>+254727325535</li>
-            <li>+254723252294</li>
-            <li>+25404680335</li>
-            <li>+25428450987</li>
-            <li>+25401207808</li>
-          </ol>
+
+        <div>
+          <h3>Superior Queens Suite</h3>
+          <img src="https://bit.ly/2CgZxD5" alt="queen" />
+          <p>Bed size:6 by 4</p>
+          <p>price:10,000</p>
+          <div id="mybtn">
+            <button>Book now</button>
+          </div>
         </div>
       </div>
     </div>
+    <h2 id="food_h2"><i><b>Culinary Offers</b></i></h2>
+
+    <div class="food">
+      <div>
+        <h3>Snacks</h3>
+        <img src="https://bit.ly/2NPiSRa" alt="snacks" />
+      </div>
+      <div>
+        <h3>Beverages</h3>
+        <img src="https://bit.ly/2oR8Gz9" alt="tea" />
+      </div>
+
+      <div>
+        <h3>Common meals</h3>
+        <img src="https://bit.ly/2JWDgi9" alt="food" />
+      </div>
+    </div>
+    <h2 id="conference_halls_h2"><i><b>Conference Halls</b></i></h2>
+    <div class="halls">
+      <div>
+        <h3>VIP</h3>
+        <img src="https://bit.ly/2PUEgqL" alt="hall" />
+      </div>
+      <div>
+        <h3>Normal Hall</h3>
+        <img src="https://bit.ly/2NoQ5UO" alt="normal" />
+      </div>
+      <div>
+        <h3>Private hall</h3>
+        <img src="https://bit.ly/2ClNB3e" alt="private" />
+      </div>
+    </div>
+
     <div class="end" id="aboutus">
-      <h3>About US</h3>
+      <h2 class="sb">About US</h2>
       <p>
         Five star hotel that brings home away from home for discerning business
         and holiday guests.We are the ideal choice hotels for exploring Narok's
@@ -98,13 +128,15 @@
         in Narok County!
       </p>
     </div>
-    <div class="footer">
-      <h3>Seron Luxury Hotel</h3>
-      <h3>Kilgoris P.O Box 36270-0030</h3>
-      <h3>Kenya</h3>
-      <h4>reservations@seronhotel.com</h4>
-      <h4>contacts:+254728450987</h4>
-      <p><em>&copy; 2019 All Rights reserved</em></p>
+    <div class="footer" id="contacts">
+      <footer>
+        <h3>Seron Luxury Hotel</h3>
+        <h3>Kilgoris P.O Box 36270-0030</h3>
+        <h3>Kenya</h3>
+        <h4>reservations@seronhotel.com</h4>
+        <h4>contacts:+254728450987</h4>
+        <p><em>&copy; 2019 All Rights reserved</em></p>
+      </footer>
     </div>
   </body>
 </html>
